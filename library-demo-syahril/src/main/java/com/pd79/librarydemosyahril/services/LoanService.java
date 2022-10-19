@@ -41,6 +41,7 @@ public class LoanService {
 
     BigDecimal lateChargerPrice = new BigDecimal("0");
     BigDecimal percent = new BigDecimal(0);
+    System.out.println("tambah git.......");
 
     for (LoanDetail loanDetails : listDetail) {
       lateChargerPrice = lateChargerPrice.add(loanDetails.getLoanPricePerDay());
